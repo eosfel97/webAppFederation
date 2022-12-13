@@ -9,4 +9,14 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Club</display-name>
+    <servlet-name>Club</servlet-name>
+    <servlet-class>controller.Club</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Club</servlet-name>
+    <url-pattern>/Club</url-pattern>
+  </servlet-mapping>
 </web-app>
